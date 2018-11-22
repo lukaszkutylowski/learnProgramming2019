@@ -15,7 +15,7 @@ public class Fibonacci {
 	String userInput = input.nextLine();
 	int intUserInput = Integer.parseInt(userInput);
 	
-	System.out.print("value of " + intUserInput + " fibonacci serie: ");
+	System.out.print("value of " + intUserInput + " fibonacci series: ");
 	System.out.println(fibonacciSeries[intUserInput]);
 	}
 }
