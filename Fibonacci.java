@@ -16,7 +16,12 @@ public class Fibonacci {
 	int intUserInput = input.nextInt();
 	int serieArrayNumber = intUserInput - 1;
 	
+<<<<<<< HEAD
 	System.out.print("value of " + intUserInput + " fibonacci serie: ");
 	System.out.println(fibonacciSeries[serieArrayNumber]);
+=======
+	System.out.print("value of " + intUserInput + " fibonacci series: ");
+	System.out.println(fibonacciSeries[intUserInput]);
+>>>>>>> b19b568015adb4b7f9b927a8d1bfa26f5ce7a0e9
 	}
 }
