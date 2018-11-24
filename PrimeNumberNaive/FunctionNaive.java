@@ -21,18 +21,18 @@ public class FunctionNaive {
 		copyResult = result;
 		floorDoubleResult = Math.floor(copyResult);
 		floorResult = (int) floorDoubleResult;
-
+		
+		if(startValue == (number - 1)) {
+			System.out.println("YES it is a prime number");
+			result = number + 1;
+		}
+		
 		if(copyResult == floorResult) {
-			System.out.println("Liczba nie jest pierwsza");
+			System.out.println("Number is NOT a prime number");
 			result = number + 1;
 		}
 		else
 		startValue++;
-		
-		if(startValue == (number - 1)) {
-			System.out.println("Liczba jest pierwsza");
-			result = number + 1;
-		}
 	}
 	
 	
