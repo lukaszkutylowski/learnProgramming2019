@@ -1,22 +1,19 @@
-/* Function catch value of variables and realized print of fibonacci 
-series number */
+/* Fibonacci serie - defined by array 10 elements; program send values 
+of variables to Function class; program can show a selected number of 
+serie for example position three: 1 */
 
 import java.util.Scanner;
 
-public class Function {
+public class Fibonacci {
+	public static void main(String[] args) {
 	
-	int fibonacciSeries[] = {0,1,1,2,3,5,8,13,21,34};
-	private int localIntUserInput;
-	private int serieArrayNumber;
-	private int var;
+	System.out.print("write a number in serie (1...10): ");
+	Scanner input = new Scanner(System.in);
 	
-	public void setInput(int intUserInput) {
-		localIntUserInput = intUserInput;
-		serieArrayNumber = localIntUserInput - 1;
-	}
+	int intUserInput = input.nextInt();
 	
-	public void getInput() {
-		System.out.print("value of "+localIntUserInput+" fibonacci serie: ");
-		System.out.println(fibonacciSeries[serieArrayNumber]);
+	Function sendInput = new Function();
+	sendInput.setInput(intUserInput);
+	sendInput.getInput();
 	}
 }
