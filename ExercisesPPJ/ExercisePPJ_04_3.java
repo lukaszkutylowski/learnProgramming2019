@@ -1,5 +1,5 @@
 /*
-Dane jest wyrażenie: int x = 2*5 + 3*4 -8; Jaki jest rezultat tych operacji?
+Dane jest wyrażenie: int x = 2 * 5 + 3 * 4 -8; Jaki jest rezultat tych operacji?
 Zmodyfikuj kolejność działań (dodając nawiasy) tak, aby rezultatem była wartość 48.
 */
 
