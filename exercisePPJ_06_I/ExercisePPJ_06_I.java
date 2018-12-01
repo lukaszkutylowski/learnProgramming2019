@@ -18,7 +18,7 @@ public class ExercisePPJ_06_I {
 	
 	double wrtDouble = (double) wrt;
 
-	for(int counter = 3; counter >= 0; counter--) {
+	for(int counter = 7; counter >= 0; counter--) {
 		
 		int exponent = 0;
 		
