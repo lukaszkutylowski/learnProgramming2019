@@ -9,7 +9,10 @@ public class ExercisePPJ_06_III {
 	boolean x = true, z = true;
 	int y = 20;
 	x = (y != 10) ^ (z = false) ;
-	System.out.println(x+", "+y+", "+z);
+	
+	FunctionPPJ_06_III sendParam = new FunctionPPJ_06_III();
+	sendParam.setFunction(x,y,z);
+	sendParam.getFunction();
 	}
 	
 	/*
