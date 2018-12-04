@@ -11,11 +11,10 @@ public class PrimeNumberNaive {
 	System.out.print("please enter of 'n' number of range (2...n): ");
 	Scanner input = new Scanner(System.in);
 	
-	long nInt = input.nextLong();
-	long n = (long) nInt;
+	long n = input.nextLong();
 	
 	FunctionNaive sendN = new FunctionNaive();
 	sendN.setFunction(n);
 	sendN.getFunction();
-}
+	}
 }
