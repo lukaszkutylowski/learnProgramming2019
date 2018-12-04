@@ -4,13 +4,13 @@ program realized naive test of Prime Number
 
 public class FunctionNaive {
 	
-	private double startValue = 2;
-	private double result=0;
-	private double number;
-	private double copyResult;
-	private int floorResult;
+	private long startValue = 2;
+	private long result=0;
+	private long number;
+	private long copyResult;
+	private long floorResult;
 
-	public void setFunction(double num) {
+	public void setFunction(long num) {
 		number = num;
 	}
 
@@ -18,7 +18,7 @@ public class FunctionNaive {
 	while(result <= (number - 1)) {
 		result = number / startValue;
 		copyResult = result;
-		floorResult = (int) Math.floor(copyResult);
+		floorResult = (long) Math.floor(copyResult);
 		
 		if(startValue == (number - 1)) {
 			System.out.println("YES it is a prime number");

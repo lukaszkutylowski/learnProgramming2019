@@ -11,8 +11,8 @@ public class PrimeNumberNaive {
 	System.out.print("please enter of 'n' number of range (2...n): ");
 	Scanner input = new Scanner(System.in);
 	
-	int nInt = input.nextInt();
-	double n = (double) nInt;
+	long nInt = input.nextLong();
+	long n = (long) nInt;
 	
 	FunctionNaive sendN = new FunctionNaive();
 	sendN.setFunction(n);
