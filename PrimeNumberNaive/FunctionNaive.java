@@ -8,7 +8,6 @@ public class FunctionNaive {
 	private double result=0;
 	private double number;
 	private double copyResult;
-	private double floorDoubleResult;
 	private int floorResult;
 
 	public void setFunction(double num) {
@@ -19,8 +18,7 @@ public class FunctionNaive {
 	while(result <= (number - 1)) {
 		result = number / startValue;
 		copyResult = result;
-		floorDoubleResult = Math.floor(copyResult);
-		floorResult = (int) floorDoubleResult;
+		floorResult = (int) Math.floor(copyResult);
 		
 		if(startValue == (number - 1)) {
 			System.out.println("YES it is a prime number");
