@@ -10,8 +10,6 @@ public class ExercisePPJ_06_I {
 	
 	public static void main(String[] args) {
 	
-	double binaryWrt[] = {0,0,0,0,0,0,0,0};
-	
 	System.out.print("Input of number: ");
 	Scanner input = new Scanner(System.in);
 	byte wrt = input.nextByte();
