@@ -11,10 +11,9 @@ public class ExercisePPJ_05_VI {
 	
 	public static void main(String[] args) {
 	
-	int x1 = 4 ;
-	long y1 = x1 * 4 - x1++;
-	int x2 = 4;
-	long y2 = x2 * 4 - ++x2;
+	int x = 4 ;
+	long y1 = x1 * 4 - x++;
+	long y2 = x2 * 4 - ++x;
 	System.out.println("y = x * 4 - x++ ="+y1);
 	System.out.println("y = x * 4 - ++x ="+y2);
 	System.out.println("Operator x++ first realized math operations next add 1 to x.");
