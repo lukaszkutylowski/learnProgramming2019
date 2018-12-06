@@ -9,6 +9,8 @@ public class FunctionPPJ_06_I {
 	
 	public void decimalToBinaryConverter() {
 		
+	if(wrtDouble != 0) {
+		
 		for(int counter = 7; counter >= 0; counter--) {
 		
 		int exponent = 0;
@@ -29,9 +31,10 @@ public class FunctionPPJ_06_I {
 			wrtDouble = rest;
 			exponent=0;
 		}
-	}
-
 		}
+	}
+	}
+	
 	public void showFunction() {
 		for(int exponent = 0; exponent <= 7; exponent++) {
 		System.out.println("2^"+exponent+": "+binaryWrt[exponent]);
