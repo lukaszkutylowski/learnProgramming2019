@@ -3,11 +3,11 @@ public class FunctionPPJ_06_I {
 	private double binaryWrt[] = {0,0,0,0,0,0,0,0};
 	private double wrtDouble = 0;
 	
-	public void setFunction(double wrtD) {
+	public void setClassVariable(double wrtD) {
 		wrtDouble = wrtD;
 	}
 	
-	public void getFunction() {
+	public void decimalToBinaryConverter() {
 		
 		for(int counter = 7; counter >= 0; counter--) {
 		

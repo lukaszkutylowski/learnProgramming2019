@@ -19,8 +19,8 @@ public class ExercisePPJ_06_I {
 	double wrtDouble = (double) wrt;
 	
 	FunctionPPJ_06_I sendParam = new FunctionPPJ_06_I();
-	sendParam.setFunction(wrtDouble);
-	sendParam.getFunction();
+	sendParam.setClassVariable(wrtDouble);
+	sendParam.decimalToBinaryConverter();
 	sendParam.showFunction();
 	sendParam.binaryFunction();
 	
