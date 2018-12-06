@@ -19,6 +19,6 @@ public class ExercisePPJ_06_IV {
 	
 	FunctionPPJ_06_IV sendDate = new FunctionPPJ_06_IV();
 	sendDate.setFunction(month, day);
-	sendDate.getFunction();
+	sendDate.calculateDays();
 	}
 }

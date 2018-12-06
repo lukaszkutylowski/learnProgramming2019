@@ -1,14 +1,13 @@
 public class FunctionPPJ_06_IV {
 	private int fDay = 0;
-	private int fMonth = 0;
-	
+	private int fMonth = 0;	
 	
 	public void setFunction(int month, int day) {
 		fMonth = month;
 		fDay = day;
 	}
 	
-	public void getFunction() {
+	public void calculateDays() {
 		switch(fMonth) {
 		case 1:
 		System.out.println("From 1st January to this day passage of time is: "+fDay+" days");
