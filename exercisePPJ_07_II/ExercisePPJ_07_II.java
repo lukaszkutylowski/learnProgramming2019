@@ -15,6 +15,6 @@ public class ExercisePPJ_07_II {
 			System.out.println("Znak A - G");
 		} else {
 			System.out.println("Znak G - Z");
-		}
+		  }
 	}
 }
