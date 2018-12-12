@@ -13,4 +13,4 @@ public class FunctionPPJ_06_III {
 	public void getFunction() {
 		System.out.println(fX+", "+fY+", "+fZ);
 	}
-	}
+}
