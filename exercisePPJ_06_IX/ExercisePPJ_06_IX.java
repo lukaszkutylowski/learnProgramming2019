@@ -14,10 +14,13 @@ public class ExercisePPJ_06_IX {
 		char a = 42;
 		
 		for(int i = 1; i <= 5; i++) {
-			for(int j = 0; j < i; j++) {
-				System.out.print(a);
+			switch (i) {
+			case 1: System.out.println(a); break;
+			case 2: System.out.println(a+""+a); break;
+			case 3: System.out.println(a+""+a+""+a); break;
+			case 4: System.out.println(a+""+a+""+a+""+a); break;
+			case 5: System.out.println(a+""+a+""+a+""+a+""+a); break;
 			}
-			System.out.println("");
 		}
 	}
 }
