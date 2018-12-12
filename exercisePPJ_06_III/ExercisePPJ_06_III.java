@@ -6,7 +6,7 @@ public class ExercisePPJ_06_III {
 	
 	public static void main(String[] args) {
 	
-	boolean x = true, z = true;
+	boolean x, z = true;
 	int y = 20;
 	x = (y != 10) ^ (z = false) ;
 	
