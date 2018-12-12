@@ -17,8 +17,8 @@ public class ExercisePPJ_06_IV {
 	Scanner input2 = new Scanner(System.in);
 	int day = input2.nextInt();
 	
-	FunctionPPJ_06_IV sendDate = new FunctionPPJ_06_IV();
-	sendDate.setFunction(month, day);
-	sendDate.calculateDays();
+	FunctionPPJ_06_IV sendInput = new FunctionPPJ_06_IV();
+	sendInput.setFunction(month, day);
+	sendInput.calculateDays();
 	}
 }
