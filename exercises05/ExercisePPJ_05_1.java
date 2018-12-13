@@ -5,9 +5,9 @@ Napisz program sprawdzający stan tej zmiennej i wyświetlający stosowny komuni
 
 public class ExercisePPJ_05_1 {
 	public static void main(String[] args) {
-		boolean czyPada = true;
+		boolean czyPada = false, czyNiePada = true, czyPopada = true;
 		
-		if(czyPada) {
+		if(true) {
 			System.out.println("Value of 'czyPada' is true ");
 		} else {
 			System.out.println("Value of 'czyPada' is false ");
