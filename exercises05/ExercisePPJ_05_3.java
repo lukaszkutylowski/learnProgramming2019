@@ -20,11 +20,11 @@ public class ExercisePPJ_05_3 {
 		if((wrt > -15) && (wrt < -13)) {
 			System.out.println("variable wrt it is contained in interval A nad B");
 		} else if((wrt > -13) && (wrt < -10)) {
-			System.out.println("variable wrt it is contained in interval A only");
-		  } else if(wrt < -15) {
-			System.out.println("variable wrt it is contained in interval B only");
-		    } else {
-			System.out.println("variable wrt it is NOT contained in A and B intervals");
-		      }
+				System.out.println("variable wrt it is contained in interval A only");
+			} else if(wrt < -15) {
+					System.out.println("variable wrt it is contained in interval B only");
+			 	} else {
+						System.out.println("variable wrt it is NOT contained in A and B intervals");
+			   		}
 	}
 }
