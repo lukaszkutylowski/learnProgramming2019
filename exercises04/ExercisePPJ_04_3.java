@@ -11,7 +11,7 @@ public class ExercisePPJ_04_3 {
 	
 	int x2 = 2 * (((5 + 3) * 4) - 8);
 	
-	System.out.println("Wartość wyrażenia 'x = 2 * 5 + 3 * 4 - 8' to: "+x1);
-	System.out.println("Wartość wyrażenia 'x = 2 * (((5 + 3) * 4) - 8)' to: "+x2);
+	System.out.println("Wartość wyrażenia 'x = 2 * 5 + 3 * 4 - 8' to: " + x1);
+	System.out.println("Wartość wyrażenia 'x = 2 * (((5 + 3) * 4) - 8)' to: " + x2);
 	}
 }
