@@ -8,9 +8,9 @@ public class ExercisePPJ_05_1 {
 		boolean czyPada = false, czyNiePada = true, czyPopada = true;
 		
 		if(true) {
-			System.out.println("Value of 'czyPada' is true ");
+			System.out.println(true);
 		} else {
-			System.out.println("Value of 'czyPada' is false ");
+			System.out.println(false);
 		  }
 	}
 }
