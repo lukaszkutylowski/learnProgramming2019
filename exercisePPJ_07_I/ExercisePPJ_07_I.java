@@ -7,19 +7,14 @@ oraz "int z przedziału <0, 5>"w przeciwnym przypadku.
 import java.util.Scanner;
 
 public class ExercisePPJ_07_I {
-	public static void main(String[] args) { 
-		//System.out.print("Input value in range 0...10: ");
-		//Scanner input = new Scanner(System.in);
-		//int wrt = input.nextInt();
-		
-		//code change - input from args
-		
-		String wrtS =  args[0];
-		int wrt = Integer.parseInt(wrtS);
+	public static void main(String[] args) {
+		int wrt = Integer.parseInt(args[0]);
+		String rangeA = "int z przedziału <6, 10>";
+		String rangeB = "int z przedziału <0, 5>";
+		String showRange = rangeB;
 		if(wrt > 5) {
-			System.out.println("int z przedziału <6, 10>");
-		} else {
-			System.out.println("int z przedziału <0, 5>");
+			showRange = rangeA;
 		}
+		System.out.println(showRange);
 	}
 }
