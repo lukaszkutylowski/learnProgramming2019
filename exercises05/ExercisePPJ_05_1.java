@@ -5,12 +5,12 @@ Napisz program sprawdzający stan tej zmiennej i wyświetlający stosowny komuni
 
 public class ExercisePPJ_05_1 {
 	public static void main(String[] args) {
-		boolean czyPada = false, czyNiePada = true, czyPopada = true;
+		boolean czyPada = false;
 		
-		if(true) {
+		if(czyPada) {
 			System.out.println(true);
 		} else {
 			System.out.println(false);
-		  }
+		}
 	}
 }
