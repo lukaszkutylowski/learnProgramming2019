@@ -5,7 +5,7 @@ Napisz program liczący ile dni upłynęło od rozpoczęcia roku do tej daty.
 
 import java.util.Scanner;
 
-public class ExercisePPJ_06_IV {
+public class PPJ_06_IV_DaysSinceDate {
 	
 	public static void main(String[] args) {
 	
