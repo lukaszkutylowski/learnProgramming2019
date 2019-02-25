@@ -6,7 +6,7 @@ Przykładowo dla liczby 5 oczekiwany jest ciąg wynikowy: 0 4 0 1
 
 import java.util.Scanner;
 
-public class ExercisePPJ_06_I {
+public class PPJ_06_I_DecToBinConverter {
 	
 	public static void main(String[] args) {
 	
