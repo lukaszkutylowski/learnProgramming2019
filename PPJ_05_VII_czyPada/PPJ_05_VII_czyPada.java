@@ -25,7 +25,6 @@ public class PPJ_05_VII_czyPada {
 
 	System.out.println("Please enter one form two numbers: (3) swieci / (4) nie swieci");
 
-	//Scanner input2 = new Scanner(System.in);
 	int b = input1.nextInt();
 	
 	if(a != 1) {
