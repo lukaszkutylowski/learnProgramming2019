@@ -9,7 +9,7 @@ Napisz program wykorzystujący instrukcję warunkową if i wyświetlający stany
 
 import java.util.Scanner;
 
-public class ExercisePPJ_05_VII {
+public class PPJ_05_VII_czyPada {
 	
 	public static void main(String[] args) {
 	
