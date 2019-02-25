@@ -8,7 +8,7 @@ Napisz program, który wykorzystując pętle utworzy trójkąt składający się
 *****
 */
 
-public class ExercisePPJ_06_IX {
+public class PPJ_06_IX_TriangleOfStars {
 	
 	public static void main(String[] args) {
 		char a = 42;
